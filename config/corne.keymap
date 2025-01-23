@@ -45,7 +45,7 @@
 // -----------------------------------------------------------------------------------------
 // |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | CTRL |  F1 |  F2 |  F3 |  F4 |  F5 |   |  =  |  -  |  [  |  ]  |  \  |  `   |
-// | BCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |  _  | C_SKIP | C_VOL_DN | C_VOL_UP | PP  |      |
+// | BCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |  _  | C_SKIP | C_VOL_DN | C_VOL_UP | PP | &studio_unlock |
 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "Raise";
@@ -58,5 +58,3 @@
                 };
         };
 };
-
-&studio_unlock
