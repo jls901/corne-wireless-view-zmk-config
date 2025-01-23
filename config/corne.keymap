@@ -45,14 +45,14 @@
 // -----------------------------------------------------------------------------------------
 // |  `   |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
 // | CTRL |  F1 |  F2 |  F3 |  F4 |  F5 |   |  =  |  -  |  [  |  ]  |  \  |  `   |
-// | BCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |  _  | C_SKIP | C_VOL_DN | C_VOL_UP | PP | &studio_unlock |
+// | BCLR | BT1 | BT2 | BT3 | BT4 | BT5 |   |  _  | C_SKIP | C_VOL_DN | C_VOL_UP | PP | UNLOCK |
 
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         display-name = "Raise";
                         bindings = <
    &kp GRAVE &kp N1 &kp N2 &kp N3 &kp N4 &kp N5   &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp BSPC
    &kp LCTRL &kp F1   &kp F2 &kp F3   &kp F4   &kp F5      &kp EQUAL &kp MINUS &kp LBKT        &kp RBKT &kp BSLH &kp GRAVE
-   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL  1 &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &kp UNDER &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &trans
+   &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL  1 &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4      &kp UNDER &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP &kp C_PP &studio_unlock
         &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
