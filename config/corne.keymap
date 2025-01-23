@@ -58,3 +58,5 @@
                 };
         };
 };
+
+&studio_unlock
